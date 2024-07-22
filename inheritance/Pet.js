@@ -1,6 +1,7 @@
 export class Pet {
-    constructor(name) {
+    constructor(name, breed) {
         this.name = name;
+        this.breed = breed;
         this.legsCount = 4;
         this.animalType = '';
         this.sound = 'GARSAS';
@@ -13,6 +14,6 @@ export class Pet {
     }
 
     voice() {
-        return `${this.name}: ${this.sound}!! ${this.emoji.repeat(this.emojiCount)}`;
+        return `${this.name}: ${this.sound}!! ${this.emoji.repeat(this.emojiCount)} - ${this.breed}`;
     }
 }
