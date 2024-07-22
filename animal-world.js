@@ -4,6 +4,9 @@ import { GoldenFish } from "./inheritance/GoldenFish.js";
 import { Shark } from "./inheritance/Shark.js";
 import { Hamster } from "./inheritance/Hamster.js";
 import { Dolphin } from "./inheritance/Dolphin.js";
+import { Hawk } from "./inheritance/Hawk.js";
+import { Seagull } from "./inheritance/Seagull.js";
+import { Pidgeon } from "./inheritance/Pidgeon.js";
 
 
 console.clear();
@@ -31,3 +34,12 @@ console.log(oliver.voice());
 
 const splash = new Dolphin('Splash')
 console.log(splash.voice());
+
+const jack = new Hawk('Jack')
+console.log(jack.voice());
+
+const frank = new Seagull('Frank')
+console.log(frank.voice());
+
+const valera = new Pidgeon('Valera')
+console.log(valera.voice());
