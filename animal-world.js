@@ -3,6 +3,7 @@ import { Cat } from "./inheritance/Cat.js";
 import { GoldenFish } from "./inheritance/GoldenFish.js";
 import { Shark } from "./inheritance/Shark.js";
 import { Hamster } from "./inheritance/Hamster.js";
+import { Dolphin } from "./inheritance/Dolphin.js";
 
 
 console.clear();
@@ -27,3 +28,6 @@ console.log(nemo.voice());
 
 const oliver = new Shark('Oliver')
 console.log(oliver.voice());
+
+const splash = new Dolphin('Splash')
+console.log(splash.voice());
