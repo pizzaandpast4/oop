@@ -1,5 +1,8 @@
-export class Fish {
-    constructor(name) {
+import { Animal } from "./Animal.js";
+
+export class Fish extends Animal {
+    constructor(name, breed) {
+        super(name, breed);
         this.name = name;
         this.animalType = 'fish';
         this.fincount = 3;
@@ -7,13 +10,4 @@ export class Fish {
         this.emoji = '🐟';
         this.emojiCount = 1;
     }
-
-    intro() {
-        return `Hello, I am a ${this.animalType} and my name is ${this.name}!`;
-    }
-
-    voice() {
-        return `${this.name}: ${this.sound}!! ${this.emoji.repeat(this.emojiCount)}`;
-    }
-
 }

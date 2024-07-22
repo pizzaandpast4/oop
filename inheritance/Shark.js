@@ -1,8 +1,9 @@
 import { Fish } from "./Fish.js";
 
 export class Shark extends Fish {
-    constructor(name) {
-        super(name);
+    constructor(name, breed) {
+        super(name, breed);
+        this.breed = breed;
         this.name = name;
         this.animalType = 'shark';
         this.fincount = 3;

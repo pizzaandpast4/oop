@@ -1,8 +1,9 @@
 import { Bird } from "./Bird.js";
 
 export class Pidgeon extends Bird {
-    constructor(name) {
+    constructor(name, breed) {
         super(name);
+        this.breed = breed;
         this.name = name;
         this.animalType = 'bird';
         this.wingCount = 2;

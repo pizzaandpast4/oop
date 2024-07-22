@@ -26,20 +26,20 @@ console.log(tom.voice());
 const bob = new Hamster('Bob', 'angora');
 console.log(bob.voice());
 
-const nemo = new GoldenFish('Nemo')
+const nemo = new GoldenFish('Nemo', 'golden fish');
 console.log(nemo.voice());
 
-const oliver = new Shark('Oliver')
+const oliver = new Shark('Oliver', 'shark')
 console.log(oliver.voice());
 
-const splash = new Dolphin('Splash')
+const splash = new Dolphin('Splash', 'dolphin')
 console.log(splash.voice());
 
-const jack = new Hawk('Jack')
+const jack = new Hawk('Jack', 'Hawk')
 console.log(jack.voice());
 
-const frank = new Seagull('Frank')
+const frank = new Seagull('Frank', 'Seagull')
 console.log(frank.voice());
 
-const valera = new Pidgeon('Valera')
+const valera = new Pidgeon('Valera', 'Pidgeon')
 console.log(valera.voice());
