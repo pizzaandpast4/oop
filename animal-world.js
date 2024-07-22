@@ -1,5 +1,9 @@
 import { Dog } from "./inheritance/Dog.js";
 import { Cat } from "./inheritance/Cat.js";
+import { GoldenFish } from "./inheritance/GoldenFish.js";
+import { Shark } from "./inheritance/Shark.js";
+import { Hamster } from "./inheritance/Hamster.js";
+
 
 console.clear();
 
@@ -14,3 +18,12 @@ console.log(rainis.voice());
 
 const tom = new Cat('Tom', 'animacinis');
 console.log(tom.voice());
+
+const bob = new Hamster('Bob', 'angora');
+console.log(bob.voice());
+
+const nemo = new GoldenFish('Nemo')
+console.log(nemo.voice());
+
+const oliver = new Shark('Oliver')
+console.log(oliver.voice());
